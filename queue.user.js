@@ -4,7 +4,7 @@
 // @match       https://msg.cityline.com/*
 // @icon        https://www.cityline.com/assets/img/citylinelogo.png
 // @grant       none
-// @version     1.0
+// @version     1.1
 // @author      -
 // @description 2023/11/28 下午2:05:24
 // ==/UserScript==
@@ -14,4 +14,4 @@ rootInterval = setInterval( ()=>{
 
     document.querySelector("#btn-retry-en-1").click();
 
-  },1800);
+  },2000);
