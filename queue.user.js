@@ -15,4 +15,4 @@ rootInterval = setInterval( ()=>{
 
     document.querySelector("#btn-retry-en-1").click();
 
-  },1800);
+  },2000);
