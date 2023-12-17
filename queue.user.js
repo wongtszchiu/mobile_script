@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name        Cityline auto click queue
-// @namespace   Violentmonkey Scripts22
+// @name        Cityline auto click queue (git)
+// @namespace   Cityline auto click queue
 // @match       https://msg.cityline.com/*
 // @icon        https://www.cityline.com/assets/img/citylinelogo.png
 // @grant       none
@@ -15,4 +15,4 @@ rootInterval = setInterval( ()=>{
 
     document.querySelector("#btn-retry-en-1").click();
 
-  },2000);
+  },1500);
