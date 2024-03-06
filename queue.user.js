@@ -12,11 +12,9 @@
 
 let rootInterval = null;
 rootInterval = setInterval(()=>{
-
     if(!document.querySelector("#btn-retry-en-1").disabled){
         setTimeout(()=>
             document.querySelector("#btn-retry-en-1").click()
         ,3000);
     }
-    
   },1000);
