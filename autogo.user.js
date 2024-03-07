@@ -5,7 +5,7 @@
 // @match       https://priority.cityline.com/tc/*
 // @icon        https://www.cityline.com/assets/img/citylinelogo.png
 // @grant       none
-// @version     1.0
+// @version     1.1
 // @author      -
 // @description 2023/11/28 下午2:05:24
 // @updateURL   https://github.com/wongtszchiu/mobile_script/raw/main/autogo.user.js
@@ -14,7 +14,7 @@
     goFacilitiesInterval = setInterval( ()=>{
         try{
             if(document.querySelector("#buyTicketBtn")){
-                document.querySelector("#buyTicketBtn").click();
+                go();
                 clearInterval(goFacilitiesInterval);
             }
 
