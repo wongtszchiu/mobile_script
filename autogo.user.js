@@ -5,7 +5,7 @@
 // @match       https://priority.cityline.com/tc/*
 // @icon        https://www.cityline.com/assets/img/citylinelogo.png
 // @grant       none
-// @version     1.4
+// @version     1.5
 // @author      -
 // @description 2023/11/28 下午2:05:24
 // @updateURL   https://github.com/wongtszchiu/mobile_script/raw/main/autogo.user.js
@@ -19,4 +19,4 @@
             }
         }catch(err){
             console.log(err)}
-    },100);
+    },50);
